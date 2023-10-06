@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    display: grid;
+    grid-template: 
+    "header header header header" 40px
+    "sidebar main main main" 100px / 1fr 4fr 1fr 1fr; 
+}
+
+.container {
+    border: 2px solid;
+    display: grid;
+}
+
+header {
+    grid-area: header;
+    padding: 8px;
+}
+
+main {
+    grid-area: main;
+    margin: 35px;
+}
+
+aside {
+
+    grid-area: sidebar;
+}
+
+button {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+}
+
+ul {
+    padding-top: 10px;
+    
+}
+
+ul li {
+    list-style: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+main, img {
+    cursor: pointer;
+}
+
+.menu {
+    display: inline-flex;
+}
+
+#form {
+    width: 450px;
+    height: 30px;
+    margin-left: 240px;
+    flex-direction: row;
+    border: 1px solid gray;
+}
+
+#search {
+    width: 50px;
+    height: 30px;
+    background-color: rgb(241, 236, 236);
+    text-transform: none;
+    border: 1px solid gray;
+}
+
+#icone-menu {
+    margin-left: 25px;
+    height: 22px;
+}
+
+#channel-avatar {
+    gap: 25px;
+}
+
+
+.navbar {
+    margin-bottom: 10px;
+}
+
+.container {
+    margin-left: 40px;
+    flex-direction: column;
+}
+
+.container-config {
+    display: flex;
+    margin-left: 800px;
+}
+
+.config {
+    display: flex;
+    gap: 10px;
+}
+
+.config:hover {
+    background-color: gray;
+}
+
